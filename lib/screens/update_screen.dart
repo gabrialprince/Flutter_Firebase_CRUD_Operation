@@ -45,12 +45,15 @@ class _UpdateScreenState extends State<UpdateScreen> {
       body: Center(
         child: Column(
           children: [
-            TextFormField(
-              controller: _textController,
-              decoration: const InputDecoration(
-                  border: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.blue)),
-                  hintText: "Enter Updated Task"),
+            Padding(
+              padding: const EdgeInsets.all(10),
+              child: TextFormField(
+                controller: _textController,
+                decoration: const InputDecoration(
+                    border: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.blue)),
+                    hintText: "Enter Updated Task"),
+              ),
             ),
             const SizedBox(
               height: 10,
