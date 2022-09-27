@@ -45,7 +45,7 @@ class _RetrieveDataState extends State<RetrieveData> {
                             child: Padding(
                               padding: const EdgeInsets.all(10.0),
                               child: Material(
-                                color: Colors.transparent,
+                                color: Colors.blue,
                                 child: Center(
                                   child: Padding(
                                     padding: const EdgeInsets.all(8.0),
