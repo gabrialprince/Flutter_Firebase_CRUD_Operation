@@ -20,7 +20,7 @@ class _UpdateScreenState extends State<UpdateScreen> {
     showDialog(
         context: context,
         builder: (ctx) => AlertDialog(
-              title: const Text("From StartupProjects"),
+              title: const Text("Alert"),
               content: Text(msg),
               actions: <Widget>[
                 // ignore: deprecated_member_use
