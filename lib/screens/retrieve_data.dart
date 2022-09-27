@@ -43,7 +43,7 @@ class _RetrieveDataState extends State<RetrieveData> {
                           SizedBox(
                             width: MediaQuery.of(context).size.width,
                             child: Padding(
-                              padding: const EdgeInsets.only(bottom: 8.0),
+                              padding: const EdgeInsets.all(10.0),
                               child: Material(
                                 color: Colors.transparent,
                                 child: Center(
