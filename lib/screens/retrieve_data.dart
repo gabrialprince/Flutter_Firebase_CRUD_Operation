@@ -87,12 +87,14 @@ class _RetrieveDataState extends State<RetrieveData> {
                                             GestureDetector(
                                                 onTap: () {
                                                   Navigator.push(
-                                                      context,
-                                                      MaterialPageRoute(
-                                                          builder: (context) =>
-                                                              UpdateScreen(
-                                                                  data: task[
-                                                                      'data'])));
+                                                    context,
+                                                    MaterialPageRoute(
+                                                      builder: (context) =>
+                                                          UpdateScreen(
+                                                              data:
+                                                                  task['data']),
+                                                    ),
+                                                  );
                                                 },
                                                 child: const Icon(Icons.update))
                                           ],
