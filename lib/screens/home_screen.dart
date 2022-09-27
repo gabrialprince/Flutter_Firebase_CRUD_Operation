@@ -47,7 +47,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   padding: const EdgeInsets.all(20),
                   child: TextFormField(
                     controller: _taskController,
-                    decoration: const InputDecoration(hintText: "Enter Task"),
+                    decoration: const InputDecoration(
+                        border: OutlineInputBorder(
+                            borderSide: BorderSide(color: Colors.blue)),
+                        hintText: "Enter Task"),
                     validator: (String? value) {
                       if (value != null && value.isEmpty) {
                         return "Enter Task";
